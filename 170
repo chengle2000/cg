@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: racus, server: r.518698.xyz, port: 443, type: trojan, password: J, skip-cert-verify: true, udp: true}
+  - {name: racus, server: .xyz, port: 443, type: trojan, password: J, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
